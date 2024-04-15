@@ -1,0 +1,66 @@
+html,body{
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+}
+
+header{
+    display: grid;
+    height: 8em;
+    width: 100%;
+    grid-template-columns: 15em 32em 1fr ;
+    grid-template-rows: 100%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    grid-area: 1/2/2/4;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+li{
+    display: flex;
+    margin: 1em;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+li span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    grid-column-start: 3;
+    grid-column-end: 4 ;
+    justify-content: end;
+    align-items: end;
+    
+}
+.contacto-orange{
+display: flex;
+align-items: center;
+justify-content: end;
+background-color: rgb(248, 164, 7);
+flex-direction: row;
+border-radius: 1.3em;
+padding: 0.5em;
+}
