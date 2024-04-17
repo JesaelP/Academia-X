@@ -1,0 +1,19 @@
+{
+  "name": "academia-x",
+  "version": "1.0.0",
+  "description": "carpeta del curso de academia-x",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesaelP/Academia-X.git"
+  },
+  "author": "Jesael Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesaelP/Academia-X/issues"
+  },
+  "homepage": "https://github.com/JesaelP/Academia-X#readme"
+}
